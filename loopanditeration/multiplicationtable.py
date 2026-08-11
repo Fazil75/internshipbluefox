@@ -1,8 +1,9 @@
 def mult_table(n):
-    print(f"multiplication table of {n} is ")
-    for i in range(1,11):
-            print(n*i,end=" ")
-    
+    for i in range(1,11):    
+        print(f"Row {i}: ", end="")
+
+        for j in range(1, 11):
+            print(i * j, end=" ")
         
 def main():
     n=int(input("enter the number:"))
