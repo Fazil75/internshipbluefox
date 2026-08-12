@@ -3,5 +3,6 @@ def boundary(n):
 def main():
     n=list(map(int,input("enter the numbers: ").split()))
     result=boundary(n)
+    print(f"list: {n}")
     print(result)
 main()
