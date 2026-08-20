@@ -1,0 +1,5 @@
+Coding is the language of the future
+There is an error in the program.
+This line is normal.
+Another error occurred.
+the error is solved .
